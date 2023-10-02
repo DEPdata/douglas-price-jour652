@@ -5,15 +5,14 @@ body {
     font-size: 1em;
     color: #444;
     font-weight: 400;
+}
 
 #container {
-    width:100%
-    max-width 1200px;
+    width:100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 50px;
 }
-
-
 
 .menu {
   margin: 0px;
@@ -110,8 +109,6 @@ body {
     margin-left: 0;
     margin-right: 0;
 
-
-}
 
 }
 
