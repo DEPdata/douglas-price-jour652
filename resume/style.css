@@ -6,6 +6,11 @@ body {
     color: #444;
     font-weight: 400;
 
+#container {
+    width:100%
+    max-width 1200px;
+    margin: 0 auto;
+    padding: 50px;
 }
 
 
@@ -104,6 +109,8 @@ body {
     min-width: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
+}
+
 }
 
 }
