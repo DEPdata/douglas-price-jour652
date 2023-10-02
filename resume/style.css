@@ -33,12 +33,16 @@ body {
 }
 
 /* My Occupation Title*/
-strong {
+#title {
     font-size: 2em;
     color:#33485e;
     text-transform: uppercase;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* Section Title */
