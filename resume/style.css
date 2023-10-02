@@ -14,13 +14,7 @@ body {
     padding: 50px;
 }
 
-.menu {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  display: inline;
 
-}
 
 
 /* Top line Banner Name */
@@ -110,6 +104,14 @@ body {
     margin-right: 0;
 
 
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: inline;
+  
 }
 
 .top {
