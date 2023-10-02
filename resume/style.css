@@ -37,7 +37,7 @@ body {
     margin: 0 auto;
 }
 
-/* My Occupation Title*/
+/* My Occupation Title */
 #title {
     font-size: 2em;
     color:#33485e;
@@ -88,7 +88,15 @@ body {
     margin-right: 0;
 }
 
-.degrees {
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+#degrees {
     margin-top: 5px;
     margin-bottom: 0px;
     margin-left: 0;
@@ -96,7 +104,7 @@ body {
 
 }
 
-.do {
+#do {
     margin-top: 5px;
     margin-bottom: 0;
     margin-left: 0;
