@@ -30,10 +30,12 @@ body {
     }
 
     .menu {
-        text-align: center;
-        display: inline;
-        margin: 0px;
-        padding: 0px;
+        li {
+            text-align: center;
+            display: inline;
+            margin: 0px;
+            padding: 0px;
+        }
     }
 
 /* My Occupation Title */
