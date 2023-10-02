@@ -9,12 +9,16 @@ body {
 }
 
 /* Top line Banner Name */
-h1 {
+#name {
     font-size: 3.5em;
     color:#33485e;
     text-transform: uppercase;
     text-align: center;
     font-weight: 400;
+    border-bottom: 2px solid #33485e;
+    width: 60%;
+    min-width: 300px;
+    margin: 0 auto;
 }
 
 /* My Occupation Title*/
