@@ -1,0 +1,124 @@
+/* "Styles for my resume" */
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
+}
+
+#container {
+    width:100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+   
+
+/* Top line Banner Name */
+    #name {
+        font-size: 3.5em;
+        color:#33485e;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 400;
+        border-bottom: 2px solid #33485e;
+        width: 60%;
+        min-width: 300px;
+        margin: 0 auto;
+    }
+
+    .menu {
+
+            text-align: center;
+            display: inline;
+            margin: 0px;
+            padding: 0px;
+  
+    }
+
+/* My Occupation Title */
+    #title {
+        font-size: 2em;
+        color:#33485e;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+/* Section Title */
+    .sectionheader {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        color: white;
+        background-color: #33485e;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 70%;
+        min-width: 300px;
+    }
+
+/* Job Organization */
+    .organization {
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+/* Job Title */
+    .jobtitle {
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+/* Job Dates */
+    .date {
+        font-size: 1em;
+        font-weight: 400;
+        font-style: italic;
+        margin-top: 3px;
+        margin-bottom: 0px;
+        margin-left: 0;
+        margin-right: 0;
+}
+
+    .description {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    #degrees {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    #do {
+        margin-top: 5px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+
+    }
+
+
+
+    .top {
+        width: 60%;
+        min-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
