@@ -8,7 +8,7 @@ img.align-center {
     margin: 0 auto;
 }
 
-.h1 {
+h1 {
     font-family: Helvetica, sans-serif;
 
 }
@@ -23,7 +23,7 @@ img.align-center {
     font-size: 12px;
 }
 
-.h3 {
+h3 {
     font-family: Helvetica, sans-serif;
 
 }
@@ -39,7 +39,7 @@ blockquote {
     padding-left: 15px;
     border-left: 4px solid #ccc;
 
-.h2 {
+h2 {
     font-family: Helvetica, sans-serif;
 }
 
