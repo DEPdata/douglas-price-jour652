@@ -15,7 +15,7 @@ img.align-center {
 }
 
 #body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, serif;
+    font-family: Verdana, sans-serif, serif;
     font-size: 12px;
 }
 
@@ -25,7 +25,7 @@ blockquote {
     font-style: italic;
     margin-top: 15px;
     margin-bottom: 15px;
-    color: red;
+    color: green;
     margin-left:  50px;
     padding-left: 15px;
     border-left: 4px solid #ccc;
