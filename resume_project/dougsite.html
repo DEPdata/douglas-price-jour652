@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Template</title>
+    <meta name="description" content="Freelance Business Journalist">
+    <meta name="author" content="Douglas E. Price=">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Add bootstrap icons -->
+  
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- add Google Elite font -->
+
+    <!-- link to your stylesheet-->
+    <link 
+    rel="stylesheet" type="text/css" href="stylesheet.css">
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<!-- add to stylesheet-->
+  <style>
+
+   .col-md-8 {
+      margin: 0 auto;
+   }
+
+   .bi {
+      text-align: center;
+      font-size: 5em;
+    
+    }
+   
+    
+    </style>  
+
+<body>
+<!-- Navbar start -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Douglas E. Price's Resume</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sections
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Objective</a></li>
+              <li><a class="dropdown-item" href="#">My Experience</a></li>
+              <!-- here's the place where you set navbar items to link to ids lower -->
+              <li><a class="dropdown-item" href="#skills">My Skills</a></li>
+              <li><a class="dropdown-item" href="#media">My Media</a></li>
+              <li><a class="dropdown-item" href="#education">My Education</a></li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="https://corporateqnk.com">CorporateQnK<a>
+            </li>          
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1"    aria-disabled="true">Disabled</a>
+          </li>          
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero start -->
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-md-12">
+        <img src="dep-masthead.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="1200" height="500" loading="lazy">
+      </div>
+      <div class="col-md-12">
+        <h1 class="display-5 fw-bold lh-1 mb-3 text-center">My Objective</h1>
+        <p class="lead">I am an accomplished financial investigator and auditor with 20 years of experience in leading and supporting corporate audit teams who seeks to tell compelling stories about business decisions, and their impacts on consumers, families, investors and entrepreneurs.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Hero end -->
+
+  <!-- Grid start -->
+  <div class="container">
+    <div class="row" padding-bottom: 50px>
+      <div class="col-md-12">
+        <h2 class="display-5 fw-bold lh-1 mb-3 text-center">My Experience</h2>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header">
+              <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                Energy & Investment Credits Subject Matter Expert,  August 2022 - Present
+              </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p>Internal Revenue Service</p>
+                Team leader on IRS implementation of the Inflation Reduction Act of 2022. Developed 2023 regulations and other published guidance with Office of Chief Counsel. Collaborating with interagency team members from Department of Energy, Environmental Protection Agency, and Department of Treasury to determine the framework of the Low-Income Community Energy Credit Program.
+              </div>
+            </div>
+          </div>
+        
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                General Business Credits Subject Matter Expert, July 2021 - May 2023
+              </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p>Internal Revenue Service</p>
+                Deliver internal consulting services on Research Tax Credits. Write recommendations for tax compliance solutions on R&D involving private and government contracts.
+              </div>
+            </div>
+          </div>
+        
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                Engineer & Valuation Specialist,  March 1999 - July 2021
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p>Internal Revenue Service</p>
+                Examined federal tax returns of over fifty Fortune 500 corporations and partnerships. Write tax compliance reports and analyze tax planning methods for R&D tax credits, renewable energy production and investment tax credits, energy efficient commercial building deductions, and donation of tangible and intangible assets.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="btn" data-bs-toggle="collapse" href="#collapseFour">
+                Sports Reader,  November 2012 - Present
+              </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p>Metropolitan Washington Ear</p>
+                Volunteer work, delivering Monday morning sports stories by reading prepared news copy to visually impaired subscribers. Real time self-editing of voice content on telephone recording system.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                Graduate Research Assistant,  May 1997 - December 1998
+              </a>
+            </div>
+            <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p>University of South Carolina</p>
+                Pre-doctoral research for International Business and Finance Department.  Wrote graduate project on financial benefits and impacts of environmental management practices.
+              </div>
+            </div>
+          </div>        
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+                Permitting Project Manager, August 1994 - May 1997
+              </a>
+            </div>
+            <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p>U.S. Army Corps of Engineers</p>
+                Performed and wrote environmental assessments on proposals for sediment discharge and fill activities in protected wetland areas. Evaluated proposals for compliance with Clean Water Act (Section 404), the Rivers and Harbors Act (Section 10), the Endangered Species Act, and Corps of Engineers Regulations.
+              </div>
+            </div>
+          </div>
+        
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSeven">
+                Environmental Regulatory Analyst, May 1992 - August 1994
+              </a>
+            </div>
+            <div id="collapseSeven" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p>BDM Federal, Inc.</p>
+                Provided consulting services for the U.S. Department of Energy Office of Environmental Management. Wrote and defended position papers to determine regulatory implications of waste management and disposal options under the hazardous waste laws (RCRA and CERCLA), the Toxic Substances Control Act, and the Clean Air Act.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <a class="btn" data-bs-toggle="collapse" href="#collapseEight">
+                Regulatory Affairs Intern,  May 1991 - January 1992
+              </a>
+            </div>
+            <div id="collapseEight" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p>The Aluminum Association</p>
+                Created a newsletter template highlighting environmental policy concerns of the aluminum industry, and potential impacts of legislative and regulatory activity. Wrote memoranda to the Association's member companies to notify them of proposed Clean Air Act regulations.
+              </div>
+            </div>
+          </div>
+        
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseNine">
+                Patent Examiner,  January 1989 - July 1990
+              </a>
+            </div>
+            <div id="collapseNine" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p>U.S. Patent and Trademark Office</p>
+                Examined patent applications of protective athletic helmets, textile manufacturing devices and linear measurement devices. Determined patentability of specific invention claims and recommended partial rejection of claims during first office actions when appropriate.
+              </div>
+            </div>
+          </div>
+        
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTen">
+                Facilities Engineer,  December 1986 - August 1988
+              </a>
+            </div>
+            <div id="collapseTen" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                <p>Bureau of Engraving and Printing</p>
+                Developed budgets and wrote statements of work for architecture and engineering services contracts, in accordance with applicable building codes. Negotiated contract modifications or change orders in conjunction with procurement office.
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseEleven">
+                  Mechanical Engineer,  June 1985 - December 1986
+                </a>
+              </div>
+              <div id="collapseEleven" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                  <p>Naval Ordnance Station</p>
+                  Performed and coordinated quality assurance audits of potential vendors for Department of the Navy. Wrote detailed procedures for inspection of metal parts and extruded plastic components of missile systems.
+                </div>
+              </div>
+            </div>
+          </div>        
+         </div>
+        </div>
+
+              <!-- added a row with an id that links to the navbar -->
+
+      <div class="row" id="skills"></div>
+         <div class="col-md-8">
+            <i class="bi bi-briefcase"></i>
+            <h3 class="display-5 fw-bold lh-1 mb-3 text-center">My Skills</h3>
+               <ul id="do">
+               <li>Adobe Audition</li>
+               <li>Adobe Premiere</li> 
+               <li>Federal Tax Compliance</li>
+               <li>Tax Research</li> 
+               <li>Microsoft Excel Data Analysis</li> 
+               <li>Certified FAA Part 107 Drone Pilot</li>
+               </ul>
+         </div>
+      </div>
+<!-- added a row with an id that links to the navbar -->
+
+      <div class="row" id="media">
+        <div class="col-md-8">
+          <i class="bi bi-chat-square-dots"></i>
+          <h3 class="display-5 fw-bold lh-1 mb-3 text-center">My Media</h3>
+          <!--new button that's a link-->
+          <a class="btn btn-primary" href="https://getbootstrap.com/docs/5.3/components/buttons/" role="button">Link to buttons</a>
+        <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+         <a class="btn btn-primary" href="https://getbootstrap.com/docs/5.3/components/buttons/" role="button">Link to buttons</a>
+          <button type="button" style="margin-top: 10px; margin-bottom: 10px;" class="btn btn-primary">Articles</button>
+          <button type="button" style="margin-top: 10px; margin-bottom: 10px;" class="btn btn-primary">Audio</button>
+          <button type="button" style="margin-top: 10px; margin-bottom: 10px;" class="btn btn-primary">Video</button>
+        </div>
+       </div>
+     </div>
+
+     <!-- added a row with an id that links to the navbar -->
+
+
+     <div class="row" id="education">
+      <div class="col-md-8">
+        <i class="bi bi-book"></i>
+          
+        <h3 class="display-5 fw-bold lh-1 mb-3 text-center">My Education</h3>
+          <ul id="degrees">
+            <li>Graduate Certificate in Multimedia Journalism, University of Maryland (Expected completion May 2024)</li>
+            <li>M.S. Taxation, Golden Gate University</li> 
+            <li>M.S. Business Administration, University of South Carolina</li>
+            <li>B.S. Mechanical Engineering, North Carolina A&T State University</li>
+          </ul>
+       </div>
+      </div>
+   </div>
+  <!-- Grid end -->
+
+
+    <!-- Adding separate Popper and Bootstrap JSat bottom of body section --->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <footer class="footer mt-auto py-3 bg-dark">
+
+      <div class="container">
+
+        <span class="text-muted">Copyright DEP 2023</span>
+
+      </div>
+
+    </footer>
+</body>
+</html>
