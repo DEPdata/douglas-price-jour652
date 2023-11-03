@@ -115,7 +115,7 @@ body {
         margin-bottom: 0px;
         margin-left: 0;
         margin-right: 0;
-
+        list-style-type: none;
     }
 
     #do {
@@ -123,11 +123,10 @@ body {
         margin-bottom: 0;
         margin-left: 0;
         margin-right: 0;
-
-
+        list-style-type: none;
     }
 
-
+   
 
     .top {
         width: 60%;
