@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Template</title>
+    <title>Douglas_Price_CV</title>
     <meta name="description" content="Freelance Business Journalist">
     <meta name="author" content="Douglas E. Price=">
     <!--Bootstrap CSS-->
@@ -14,17 +14,32 @@
   
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- add Google Elite font -->
-    
+
     <!-- link to your stylesheet-->
     <link 
     rel="stylesheet" type="text/css" href="stylesheet.css">
 
-</head>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<!-- add to stylesheet-->
+  <style>
 
+   .col-md-8 {
+      margin: 0 auto;
+      padding: 20px
+   }
+
+   .bi {
+      text-align: center;
+      font-size: 2em;
+    
+    }
+   
+    
+    </style>  
 
 <body>
 <!-- Navbar start -->
@@ -37,25 +52,30 @@
   
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
+      
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:pricedep@gmail.com">Send me an E-mail<a>
+          </li>  
+          
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Sections
+              Social Media
             </a>
+
+        <!-- here's the place where I set navbar items to link to ids lower -->
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Objective</a></li>
-              <li><a class="dropdown-item" href="#">My Experience</a></li>
-              <li><a class="dropdown-item" href="#">My Skills</a></li>
-              <li><a class="dropdown-item" href="#">My Media</a></li>
-              <li><a class="dropdown-item" href="#">My Education</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/depriceprofessionalprofile/">LinkedIn</a></li>
+              <li><a class="dropdown-item" href="https://www.instagram.com/dprice_isrite/">Instagram</a></li>
+
+              <li><a class="dropdown-item" href="https://twitter.com/CorporateQnK">X</a></li>
+
             </ul>
             <li class="nav-item">
               <a class="nav-link" href="https://corporateqnk.com">CorporateQnK<a>
-            </li>          
+            </li>  
+
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1"    aria-disabled="true">Disabled</a>
-          </li>          
+
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -237,49 +257,48 @@
          </div>
         </div>
 
-        
-       <div class="col-md-4">
-          <i class="bi bi-briefcase"></i>
-          <h3 class="display-5 fw-bold lh-1 mb-3 text-center">My Skills</h3>
-            <ul id="do">
-              <li>Adobe Audition</li>
-              <li>Adobe Premiere</li> 
-              <li>Federal Tax Compliance</li>
-              <li>Tax Research</li> 
-              <li>Microsoft Excel Data Analysis</li> 
-             <li>Certified FAA Part 107 Drone Pilot</li>
-            </ul>
-        </div>
-      
-        <div class="col-md-4">
-          <i class="bi bi-chat-square-dots"></i>
-          <h3 class="display-5 fw-bold lh-1 mb-3 text-center">My Media</h3>
-        <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-          <button type="button" style="margin-top: 10px; margin-bottom: 10px;" class="btn btn-primary">Articles</button>
-          <button type="button" style="margin-top: 10px; margin-bottom: 10px;" class="btn btn-primary">Audio</button>
-          <button type="button" style="margin-top: 10px; margin-bottom: 10px;" class="btn btn-primary">Video</button>
-        </div>
+              <!-- added a row with an id that links to the navbar -->
+
+      <div class="row" id="skills"></div>
+         <div class="col-md-8">
+            <i class="bi bi-briefcase"></i>
+            <h3 class="display-5 fw-bold lh-1 mb-3">My Skills</h3>
+               <ul id="degrees">
+               <li>Adobe Audition</li>
+               <li>Adobe Premiere</li> 
+               <li>Federal Tax Compliance</li>
+               <li>Tax Research</li> 
+               <li>Microsoft Excel Data Analysis</li> 
+               <li>Certified FAA Part 107 Drone Pilot</li>
+               </ul>
+         </div>
       </div>
+<!-- added a row with an id that links to the navbar -->
 
-      <div class="col-md-4">
+      <div class="row" id="media">
+        <div class="col-md-8">
+          <i class="bi bi-chat-square-dots"></i>
+          <h3 class="display-5 fw-bold lh-1 mb-3">My Media</h3>
+          <!--new button that's a link-->
+
+        <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+
+          <a class="btn btn-primary" href="https://corporateqnk.com/2023/01/04/after-a-tumultuous-holiday-week-southwest-airlines-looks-to-find-its-way-back-to-a-steady-course/" role="button">Articles</a>
+          <a class="btn btn-primary" href="Street Interviews_StudentLoanForgiveness_October2022_DPrice.mp3" role="button">Audio</a>
+          <a class="btn btn-primary" href="https://youtu.be/4X0SmW047OA?si=0mWM4ZDXUyhykCz8" role="button">Video</a>
+
+        </div> 
+       </div>
+     </div>
+
+     <!-- added a row with an id that links to the navbar -->
+
+
+     <div class="row" id="education">
+      <div class="col-md-8">
         <i class="bi bi-book"></i>
-          <style>
-
-          .bi {
           
-            font-size: 2em;
-          
-          }
-          
-          
-          .col-md-4 {
-          
-            text-align: center;
-          
-          }
-          
-          </style>        
-        <h3 class="display-5 fw-bold lh-1 mb-3 text-center">My Education</h3>
+        <h3 class="display-5 fw-bold lh-1 mb-3">My Education</h3>
           <ul id="degrees">
             <li>Graduate Certificate in Multimedia Journalism, University of Maryland (Expected completion May 2024)</li>
             <li>M.S. Taxation, Golden Gate University</li> 
@@ -287,6 +306,7 @@
             <li>B.S. Mechanical Engineering, North Carolina A&T State University</li>
           </ul>
        </div>
+      </div>
    </div>
   <!-- Grid end -->
 
