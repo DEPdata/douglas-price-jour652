@@ -16,7 +16,9 @@
       <!-- Add bootstrap icons (it's basically a custom font) -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
       <!-- Load our CSS -->
-      <link rel="stylesheet" href="STYLES.css">
+
+      <!-- #5: HTML original line 19, STYLES.css should be style.css to match filename in folder -->
+      <link rel="stylesheet" href="style.css">
    </head>
    <body>
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -53,24 +55,33 @@
          <div class="row">
            <p class="main-text">NASA’s Space Launch System (SLS) rocket with the Orion spacecraft atop arrived at Launch Pad 39B at the agency’s Kennedy Space Center in Florida Friday in preparation for a final test before its Artemis I Moon mission.</p>
            <p class="main-text">The Moon rises behind NASA's Space Launch System rocket and Orion spacecraft. </p>
-           <p>The Moon is seen rising behind NASA’s Space Launch System (SLS) rocket with the Orion spacecraft aboard atop a mobile launcher as it rolls out to Launch Complex 39B for the first time, Thursday, March 17, 2022, at NASA’s Kennedy Space Center in Florida. Ahead of NASA’s Artemis I flight test, the fully stacked and integrated SLS rocket and Orion spacecraft will undergo a wet dress rehearsal at Launch Complex 39B to verify systems and practice countdown procedures for the first launch.</p>
+
+              <!-- #6: HTML original line 56; add class=main-text to p element, to properly associate text font of css ruleset for main-text-->
+           <p class="main-text">The Moon is seen rising behind NASA’s Space Launch System (SLS) rocket with the Orion spacecraft aboard atop a mobile launcher as it rolls out to Launch Complex 39B for the first time, Thursday, March 17, 2022, at NASA’s Kennedy Space Center in Florida. Ahead of NASA’s Artemis I flight test, the fully stacked and integrated SLS rocket and Orion spacecraft will undergo a wet dress rehearsal at Launch Complex 39B to verify systems and practice countdown procedures for the first launch.</p>
            <p class="main-text">The uncrewed flight test will pave the way for missions to land the first woman and first person of color on the Moon under Artemis, and the rocket rolled to the pad for a final test before launch.</p>
            <p class="main-text">“From this sacred and historical place, humanity will soon embark on a new era of exploration,” said NASA administrator Bill Nelson. “Artemis I will demonstrate NASA’s commitment and capacity to extend humanity’s presence on the Moon – and beyond.”</p>
         </div>
         <div class="row">
            <!-- image1 -->
-            <img src="moon.jpeg" class="stack-image" alt="The moon rising seen at the international space station">
+
+                <!-- #7: HTML original line 62; change moon.jpeg to images/moon.jpeg to redirect source path -->
+            <img src="images/moon.jpeg" class="stack-image" alt="The moon rising seen at the international space station">
             <p class="caption">A waxing crescent moon is photographed from the International Space Station during an orbital sunset (Photo Credit: NASA)</p>
             <!-- /End -->
             <!-- subhead -->
-            <p class=".chapter-head"> A test run</p>
+
+
+                <!-- #8: HTML original line 66; remove period that was immediately before chapter-head in p class name. This also corrects the typeface, font size -->
+            <p class="chapter-head"> A test run</p>
 
             <p class="main-text">Stacked on the mobile launcher and mounted on the crawler-transporter for a journey from the Vehicle Assembly Building to Launch Pad 39B, it took 10-hours and 28 minutes for SLS and Orion to reach the launch pad four miles away. The trip began at 5:47 p.m. Thursday, March 17, and the 322-foot tall, 3.5-million-pound rocket and spacecraft arrived at the pad at 4:15 a.m. on March 18.</p>
             <p class="main-text">The upcoming final test, known as the wet dress rehearsal, will run the Artemis I launch team through operations to load propellant into the rocket’s tanks, conduct a full launch countdown, demonstrate the ability to recycle the countdown clock, and also drain the tanks to practice the timelines and procedures the team will use for launch.</p>
             <p class="main-text">“Rolling out of the Vehicle Assembly Building is an iconic moment for this rocket and spacecraft, and this is a key milestone for NASA,” said Tom Whitmeyer, deputy associate administrator for Common Exploration Systems Development at NASA Headquarters in Washington. “Now at the pad for the first time, we will use the integrated systems to practice the launch countdown and load the rocket with the propellants it needs to send Orion on a lunar journey in preparation for launch.”</p>
           </div>
             <div class="row">
-               <div class="col-md-12">
+
+                  <!-- #9: HTML original line 73; change div class col-md-12 to col-md-6 for an effective grid of two column for side-by-side photos -->
+               <div class="col-md-6">
                  <img src="images/rocket2.jpeg" class="stack-image" alt="moon rising behind the space launch rocket">
                  <p class="caption">The Moon behind NASA’s Space Launch System (SLS) rocket (Photo credit: NASA)</p>
                </br>
@@ -91,6 +102,8 @@
       <!-- Footer -->
       <div class="footer">
          <p class="text-center">Footer text</p>
+  
+          <!-- This misspelling of Captial should be changed to Capitol, but the final PNG file does not reflect this as an error. -->
          <p class="text-center">Copyright 2020 Captial News Service</p>
       </div>
       <!-- //End footer -->
