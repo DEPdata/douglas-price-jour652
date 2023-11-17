@@ -7,18 +7,12 @@
 
 
 #container {
-    width:100%;
+    width:70%;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 50px;
-}
-
-   
-img.align-center {
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 /* Add font stylings to each header withing body to avoid HTML defaults */
