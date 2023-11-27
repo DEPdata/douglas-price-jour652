@@ -1,4 +1,4 @@
-/* "Styles for my resume" */
+/* "Styles for Climate Crisis Story" */
 #content {
 
     margin: 0 auto;
@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #444;
     font-weight: 400;
@@ -48,7 +48,7 @@ img.align-center {
     margin-bottom: 20px;
 }
 
-/* Add font stylings to each header withing body to avoid HTML defaults */
+/* Add font stylings to each header within body to avoid HTML defaults */
 
 h1 {
     font-family: Helvetica, sans-serif;

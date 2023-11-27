@@ -5,7 +5,6 @@
     width: 900px;
 }
 
-
 #container {
     width:70%;
     max-width: 1200px;
@@ -14,6 +13,8 @@
     margin-bottom: 50px;
     padding: 50px;
 }
+
+
 
 /* Add font stylings to each header withing body to avoid HTML defaults */
 

@@ -1,76 +1,89 @@
-content {
-
-    margin: 0 auto;
-    width: 900px;
+BODY {
+  font-family: 'PT Serif', serif;
 }
 
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #444;
-    font-weight: 400;
+
+.container {
+  text-align:center;
 }
 
-#headline {
-    font-family: Helvetica, sans-serif;
-    font-size: 2em;
-    margin: 0 auto;
-    text-align: center;
+p{
+  text-align:left;
+  line-height:180%;
 }
 
-#container {
-    width:100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 50px;
-}
-   
-img.align-center {
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 500px;
-    height: 400px; 
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+
 }
 
-.bi {              
-    font-size:3em;
-    
+
+.hed {
+  font-size:3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
 }
 
-.button {
-    background-color: #4cafaa; /* Blue-Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    cursor: pointer;
+
+.byline {
+  font-size:1em;
+  text-transform:uppercase;
+  margin-top:-10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.chapter-head {
+  font-size:2em;
+  font-family: 'Montserrat', sans-serif;
+  padding-top:20px;
+  font-weight:700;
+}
+
+.stack-image {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+  height:100%;
+}
+
+.caption {
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-bottom:30px;
+  font-family: 'Montserrat', sans-serif;
+  color:#999;
+}
+
+.footer {
+  background: #000;
+  height:100px;
+  min-height: 100px;
+  padding-top:25px;
+  margin-top:100px;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff
+}
+
+
+
+@media(max-width:550px) {
+  p {
+    padding-left:20px;
+    padding-right:10px;
   }
 
-/* Add font stylings to each header withing body to avoid HTML defaults */
+  .chapter-head {
+    font-size:1.25em;
+  }
 
-h1 {
-    font-family: Helvetica, sans-serif;
-}
-.byline {
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
-    font-style: italic;
-    margin: 0 auto;
-    text-align: center;
-}
+  .hed {
+    font-size:2em;
+  }
 
-h2 {
-    font-family: Helvetica, sans-serif;
-}
-
-h3 {
-    font-family: Helvetica, sans-serif;
 }
