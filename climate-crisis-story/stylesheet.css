@@ -2,11 +2,19 @@ BODY {
   font-family: 'PT Serif', serif;
 }
 
-.hero-top {
+
+
+.hero-image {
   width: 100%;
-  margin: 0 auto;
+
 
 }
+
+.hero-top {
+  width:100%;
+
+}
+
 .container {
   text-align: left;
   max-width: 1200px;
