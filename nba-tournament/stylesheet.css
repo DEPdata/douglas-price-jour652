@@ -34,10 +34,10 @@ p{
 }
 
 .chapter-head {
-  font-size:2em;
+  font-size:1.5em;
   font-family: 'Montserrat', sans-serif;
   padding-top:20px;
-  font-weight:700;
+  font-weight:400;
 }
 
 .stack-image {
