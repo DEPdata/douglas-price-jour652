@@ -103,6 +103,12 @@ p {
   color:#999;
 }
 
+.col-md-6 {
+  padding-left: 25px;
+  padding-right: 75px;
+
+}
+
 /* unvisited link - styling from w3schools.com */
 a:link {
   color: red;
@@ -124,13 +130,11 @@ a:active {
 }
 
 #sidebar {
-  margin-top: 5px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
   font-size: 14px;
   font-family: 'Montserrat', sans-serif; 
-
+  background: rgba(250,140,50, 0.6);
 }
 
 .source-line {
