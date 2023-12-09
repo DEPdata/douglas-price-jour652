@@ -48,10 +48,10 @@ p{
 }
 
 .stack-image {
-  width: 125px;
-  max-width:900px;
-  margin: left-align;
-  height: 125px;
+  width: 80%;
+  max-width: 900px;
+  margin: O auto;
+  height: 80%;
 }
 
 .caption {
@@ -80,7 +80,7 @@ blockquote {
 .col-md-3 {
   padding-left: 50px;
   padding-right: 50px;
-
+  margin:0 auto;
 }
 
 .col-md-6 {
@@ -88,6 +88,62 @@ blockquote {
   padding-right: 50px;
 
 }
+
+/* START styles for sidebar box from climate-crisis-story folder */
+
+.text-box{
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  border: solid #3050f2 2px;
+  margin-top:25px;
+  margin-bottom:25px;
+
+}
+
+.text-box-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+  color:	white;
+  background: #3050f2;
+}
+
+.text-box-text{
+  padding-left: 3em;
+  padding-right: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  color:#303030;
+}
+
+.text-box-intro-text{
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+.text-box-source-text{
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8em;
+  text-align: left;
+  color:#303030;
+}
+
+.graphic {
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+/* END climate-crisis-story styles */
+
 
 /* unvisited link - styling from w3schools.com */
 a:link {
@@ -107,14 +163,6 @@ a:hover {
 /* selected link - styling from w3schools.com */
 a:active {
   color: blue;
-}
-
-#sidebar {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-size: 14px;
-  font-family: 'Montserrat', sans-serif; 
-  background: rgba(250,140,50, 0.6);
 }
 
 .footer {
