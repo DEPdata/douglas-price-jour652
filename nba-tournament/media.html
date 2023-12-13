@@ -25,7 +25,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- Navbar start -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -39,23 +39,19 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Story Chapters
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">TV Viewers</a></li>
-              <li><a class="dropdown-item" href="#">New TV Partners</a></li>
+              <li><a class="dropdown-item" href="#tvviewers">TV Viewers</a></li>
+              <li><a class="dropdown-item" href="#newtvpartners">New TV Partners</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Another Championship Trophy</a></li>
+              <li><a class="dropdown-item" href="#anothertrophy">Another Trophy</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1"    aria-disabled="true">Disabled</a>
-          </li>
+          
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -64,7 +60,9 @@
       </div>
     </div>
   </nav>
+
 <!-- Banner image from in-person attendance at NBA Game, 11/17/2023, Washington DC -->
+
   <div class="row">
     <img src="images/in-season-tournament-1.jpg"/>
     <p class="caption">The N.B.A. in-season tournament, likely to be featured in future media negotiations, made its Friday night home debut for the Washington Wizards on November 17 at Capital One Arena. Credit: Douglas E. Price</p>
@@ -105,17 +103,30 @@
         
         <p>The most likely scenario, according to the people familiar with the negotiations, is that Disney and Warner Bros. Discovery will sign new agreements with the N.B.A. to televise fewer games. The N.B.A. declined to comment for this article.</p>
 
-          <!-- Addition of new reporting content -->
-        <p>One way to attract more attention to a product is by creating a reason to increase promotion. For the first time in its 78-year history, the NBA decided to launch a championship inside of its regular season. </p><br>
-
-        <div class="row">
-          <img src="images/cap-one-game.jpeg"/>
-          <p class="caption">The pre-game activity at Capital One Arena in Washington, DC has plenty of bold marketing to make it more than a run-of-the-mill home game. Credit: Douglas E. Price</p>
-        </div> 
 
       <!-- Insert infographics -->
 
-          <p class="chapter-head">Who Are the TV Viewers? -- Are There More People Watching?</p>
+     <div id="tvviewers" class="container-fluid">
+      <p class="chapter-head">Who Are the TV Viewers? -- Are There More People Watching?</p>
+     </div>
+
+        <p>The two companies together show about 160 regular-season games each year, as well as the playoffs and N.B.A. finals. Most games are shown on cable (ESPN and TNT), with a handful on ABC.</p>
+        
+      <div class="row">
+        <div class="col-md-6">
+          <p>For both companies, N.B.A. broadcast rights still represent a valuable bargaining chip in negotiations with their biggest customers: cable and satellite companies. Those distributors pay billions of dollars to Disney and Warner Bros. Discovery for the rights to show their cable channels, including TNT and ESPN, based in part on the expectation that those channels will air sports like N.B.A. basketball.</p>
+
+          <p>An N.B.A. package would also help both companies shift to a streaming future. Warner Bros. Discovery recently added a live sports package to its streaming service, Max, while ESPN has been vocal about having a stand-alone streaming offering for its flagship channel in the near future.</p>
+        </div>
+
+        <div class="col-md-3">
+          <img src="images/esp-logo.jpg" class="stack-image" alt="An image of the ESPN logo.">
+        </div>
+
+        <div class="col-md-3">
+          <img src="images/tntee-logo.jpg" class="stack-image" alt="An image of the Warner Brothers Discovery TNT subsidiary network logo.">
+        </div>
+      </div><br> 
 
       <div class="row">
         <div class="col-md-12">
@@ -133,24 +144,9 @@
           </script><br>
         </div>
 
-          <p>The two companies together show about 160 regular-season games each year, as well as the playoffs and N.B.A. finals. Most games are shown on cable (ESPN and TNT), with a handful on ABC.</p>
-        
-      <div class="row">
-        <div class="col-md-6">
-          <p>For both companies, N.B.A. broadcast rights still represent a valuable bargaining chip in negotiations with their biggest customers: cable and satellite companies. Those distributors pay billions of dollars to Disney and Warner Bros. Discovery for the rights to show their cable channels, including TNT and ESPN, based in part on the expectation that those channels will air sports like N.B.A. basketball.</p>
-          <p>An N.B.A. package would also help both companies shift to a streaming future. Warner Bros. Discovery recently added a live sports package to its streaming service, Max, while ESPN has been vocal about having a stand-alone streaming offering for its flagship channel in the near future.</p>
-        </div>
-
-        <div class="col-md-3">
-          <img src="images/esp-logo.jpg" class="stack-image" alt="An image of the ESPN logo.">
-        </div>
-
-        <div class="col-md-3">
-          <img src="images/tntee-logo.jpg" class="stack-image" alt="An image of the Warner Brothers Discovery TNT subsidiary network logo.">
-        </div>
-      </div><br> 
-      
+        <div id="newtvpartners" class="container-fluid">      
           <p class="chapter-head">Room for new TV partners...and maybe a familiar face</p>
+        </div>
 
           <p>Disney and Warner Bros. Discovery are not likely to be the only companies showing N.B.A. games, though. If those companies end up showing fewer games in the new deal, the league may create a third rights package, perhaps even a fourth, of the games no longer included in the first two packages, as well as the league’s new in-season tournament.</p>
         
@@ -193,9 +189,6 @@
           <p>Disney and ESPN executives have spoken in recent months with private equity firms, tech and mobile companies and sports leagues, and have concluded that if they are to give up equity, it should be to a league, or leagues, as part of a long-term partnership, according to two people familiar with ESPN’s plans.</p>
         
           <p>Analysts have valued ESPN at $25 billion to $50 billion, meaning a potential partner would have to trade billions in value for even a small stake. While a partner could pay Disney for a stake in ESPN, what the company is really looking for is exclusive content, some of those involved in the negotiations said.</p>
-
-
-
             <!-- START sidebar code from climate-crisis-story Marton folder -->
 
        <div class="text-box">
@@ -223,7 +216,17 @@
 
             <!-- Photo caption -->
 
+       <div id="anothertrophy" class="container-fluid">           
         <p class="chapter-head">The spectacle of another championship trophy reveals a potential breakthrough to new viewers</p>
+
+          <!-- Addition of new reporting content -->
+        <p>One way to attract more attention to a product is by creating a reason to increase promotion. For the first time in its 78-year history, the NBA decided to launch a championship inside of its regular season. </p><br>
+
+        <div class="row">
+            <img src="images/cap-one-game.jpeg"/>
+            <p class="caption">The pre-game activity at Capital One Arena in Washington, DC has plenty of bold marketing to make it more than a run-of-the-mill home game. Credit: Douglas E. Price</p>
+        </div> 
+  
 
         <p>The in-season tournament has delivered something that the NBA has rarely shown - innovation. From the multi-colored court surfaces and carefully coordinated marketing at arenas, to special home-team uniforms, the league has made it clear that the Friday and Tuesday games are different.</p>
 
