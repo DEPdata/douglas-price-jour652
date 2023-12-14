@@ -55,7 +55,7 @@ p{
 }
 
 .stack-image {
-  width: 70%;
+  width: 75%;
   max-width: 900px;
   margin: O auto;
   height: 70%;
@@ -88,7 +88,9 @@ blockquote {
 .col-md-3 {
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
   margin:0 auto;
 
 }
@@ -97,8 +99,9 @@ blockquote {
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 25px;
+  padding-bottom: 20px;
   background-color: #e9e3e3;  
-  margin-top: 15px; 
+  margin-bottom: 15px; 
 
 }
 
