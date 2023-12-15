@@ -81,8 +81,8 @@ blockquote {
   color: rgba(204, 121, 20, 0.55);
   margin-left:  50px;
   padding-left: 25px;
-  border-left: 4px solid yellow;
-  background-color: #e9e9e1f3;
+  border-left: 4px solid rgb(85, 51, 22);
+  background-color: #e9e3e1f3;
  
 }
 
