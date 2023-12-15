@@ -78,11 +78,11 @@ blockquote {
   text-align: left;
   margin-top: 15px;
   margin-bottom: 15px;
-  color: rgb(255, 145, 0);
+  color: rgb(204, 124, 20);
   margin-left:  50px;
   padding-left: 25px;
   border-left: 4px solid #ccc;
-  background-color: #e9e3e3b0; 
+  background-color: #ab9a9ab0; 
 }
 
 .col-md-3 {
